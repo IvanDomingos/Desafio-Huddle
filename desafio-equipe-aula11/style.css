@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 :root {
     --rosa: #ff52bf;
     --azulclaro: #ebfbff; 
@@ -5,11 +10,26 @@
     --azulescuro: #00252e;
     --cinza: #808d99;
 }
+
 body{
     background-color: #ebfbff;
-    background-image: url(/desafio-equipe-aula11/images/bg-hero-desktop.svg);
-    background-position: relative;
+    background-image: url(images/bg-hero-desktop.svg);
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
 }
+
+h1, h2, h3 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+button {
+    font-family: "Open Sans", sans-serif;
+}
+
 .navbar{
     font-family: "Poppins", sans-serif;
     font-weight: 600;
@@ -44,22 +64,36 @@ body{
     box-shadow: 1px 1px 11px -4px var(--cinza);
 }
 
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-
-
-h1, h2, h3 {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
+.classe-imagem01 {
+    width: 30%
 }
 
-body{
-    font-family: "Open Sans", sans-serif;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-button {
-    font-family: "Open Sans", sans-serif;
+.topicos {
+    width: 80%;
+    margin: 15px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px -20px var(--cinza) ;
+}
+
+.topicos > img {
+    width: 40%;
+}
+
+.topicos-texto {
+    width: 40%;
+}
+
+.topicos-texto > p {
+    color: var(--cinza);
 }
