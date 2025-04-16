@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+
 :root {
     --rosa: #ff52bf;
     --azulclaro: #ebfbff; 
@@ -10,16 +11,89 @@
     --cinza: #808d99;
 }
 
+body{
+    background-color: #ebfbff;
+    background-image: url(images/bg-hero-desktop.svg);
+    font-family: "Open Sans", sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
 h1, h2, h3 {
     font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
 }
 
-body{
+button {
     font-family: "Open Sans", sans-serif;
 }
 
-button {
-    font-family: "Open Sans", sans-serif;
+.navbar{
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 120px;
+    padding: 1rem 2rem;
+}
+
+.navbar img{
+    width: 230px;
+    height: 38px;
+}
+
+.navbar ul, li{
+    font-size: 1.75rem;
+    color: var(--azulescuro);
+    cursor: pointer;
+    list-style: none;
+}
+
+.navbar button{
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 700;
+    background-color: #fff;
+    border-radius: 50px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    box-shadow: 1px 1px 11px -4px var(--cinza);
+}
+
+.classe-imagem01 {
+    width: 30%
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.topicos {
+    width: 80%;
+    margin: 15px;
+    padding: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 40px -20px var(--cinza) ;
+}
+
+.topicos > img {
+    width: 40%;
+}
+
+.topicos-texto {
+    width: 40%;
+}
+
+.topicos-texto > p {
+    color: var(--cinza);
 }
