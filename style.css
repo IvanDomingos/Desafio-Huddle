@@ -282,6 +282,7 @@ footer .copyright {
     .fans{
         flex-direction: column;
         text-align: center;
+        padding: 1px;
     }
 
     .footer P, h1{
@@ -306,6 +307,8 @@ footer .copyright {
 }
 
 @media (max-width: 650px){
+    .fans{
+        padding: 1px;
     h2{
         font-size: 15px;
     }
