@@ -48,6 +48,7 @@ button {
 }
 
 .navbar ul, li{
+    padding: 0;
     font-size: 1.75rem;
     color: var(--azulescuro);
     cursor: pointer;
