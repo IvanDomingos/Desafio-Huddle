@@ -286,6 +286,11 @@ footer .copyright {
         padding: 1px;
     }
 
+    .navbar{
+        flex-direction: column;
+        text-align: center;
+    }
+
     .footer P, h1{
         font-size: 10px;
     }
@@ -313,8 +318,9 @@ footer .copyright {
     h2{
         font-size: 15px;
     }
-    .navbar{
+    .navbar ul, li{
         flex-direction: column;
+        text-align: center;
     }
 
     .fans{
