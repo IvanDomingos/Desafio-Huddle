@@ -276,6 +276,9 @@ footer .copyright {
 /* MEDIA QUERY */
 
 @media (max-width: 900px){
+    h2{
+        font-size: 15px;
+    }
     .fans{
         flex-direction: column;
         text-align: center;
@@ -303,7 +306,9 @@ footer .copyright {
 }
 
 @media (max-width: 650px){
-
+    h2{
+        font-size: 15px;
+    }
     .navbar{
         flex-direction: column;
     }
