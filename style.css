@@ -315,6 +315,7 @@ footer .copyright {
 @media (max-width: 650px){
     .fans{
         padding: 1px;
+        margin-top: 80px;
     h2{
         font-size: 15px;
     }
